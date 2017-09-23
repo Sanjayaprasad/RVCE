@@ -1,0 +1,40 @@
+	<div class="panel-body">
+		<form ng-submit="addStudent()">
+      <div class="form-group">
+      <label for="usn">USN:</label>
+      <input type="text" class="form-control" id="usn" ng-model="student.usn">
+      </div>
+
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" ng-model="student.name">
+      </div>
+
+      <div class="form-group">
+        <label for="sex">Sex:</label>
+        <input type="text" class="form-control" id="sex" ng-model="student.sex">
+      </div>
+
+      <div class="form-group">
+        <label for="dept">Department:</label>
+        <input type="text" class="form-control" id="dept" ng-model="student.dept">
+      </div>
+
+      <div class="form-group">
+        <label for="sems">Semester:</label>
+        <input type="text" class="form-control" id="semester" ng-model="student.semester">
+      </div>
+
+      <div class="form-group">
+        <label for="col">College:</label>
+        <input type="text" class="form-control" id="college" ng-model="student.college">
+      </div>
+    
+      <div class="form-group">
+        <label for="contact">Contact No. :</label>
+        <input type="text" class="form-control" id="contact" ng-model="student.contact">
+      </div>
+      <button type="submit" style="color:#5bc0de;" class="btn btn-default">Save</button>
+      <a href="#/students" class="btn btn-default"> Cancel</a>
+    </form>		
+  <div>
